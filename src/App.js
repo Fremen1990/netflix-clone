@@ -12,3 +12,5 @@ export default function App() {
     </>
   );
 }
+
+// TODO 2:20 constants
