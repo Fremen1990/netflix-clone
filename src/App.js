@@ -18,3 +18,8 @@ export default function App() {
     </>
   );
 }
+
+
+
+// TODO 2:33 Header component - on separated branch from develop branch, the structure of branches: main -> develop
+//  -> HeaderComponent
