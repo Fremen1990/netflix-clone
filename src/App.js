@@ -18,5 +18,3 @@ export default function App() {
     </>
   );
 }
-
-// TODO 2:33 Header component module
