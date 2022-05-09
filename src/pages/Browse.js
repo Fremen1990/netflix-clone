@@ -1,5 +1,6 @@
 import React from "react";
 import { useAuthListener, useContent } from "../hooks";
+import selectionFilter from "../utils/selection-filter";
 
 export default function Browse() {
   const { user } = useAuthListener();
@@ -7,10 +8,11 @@ export default function Browse() {
 
   // We need the series and films, fetch them
   const { series } = useContent("series");
-  console.log("SERIES: ", series);
   const { films } = useContent("films");
-  console.log("FILMS: ", films);
+
   // We need slides for them
+  const slides = selectionFilter({ series, films });
+  console.log(slides);
 
   // We need to pass it to the browse container
 
