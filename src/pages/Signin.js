@@ -27,7 +27,7 @@ export default function Signin() {
       .signInWithEmailAndPassword(emailAddress, password)
       .then(() => {
         //push to the browse page
-        navigate.push(ROUTES.BROWSE);
+        navigate(ROUTES.BROWSE);
       })
       .catch((error) => {
         setEmailAddress("");
