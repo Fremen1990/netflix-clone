@@ -12,6 +12,7 @@
 /build
 
 # misc
+/src/lib
 .idea
 .env
 .DS_Store
