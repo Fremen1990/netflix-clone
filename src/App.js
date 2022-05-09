@@ -19,4 +19,4 @@ export default function App() {
   );
 }
 
-//TODO FIREBASE CONNECTION
+//TODO FIREBASE CONNECTION -> 03:10
