@@ -5,6 +5,7 @@ import HeaderContainer from "../containers/HeaderContainer";
 import { FooterContainer } from "../containers/FooterContainer";
 import { Form } from "../components";
 import * as ROUTES from "../constants/routes";
+import { validateEmail, validatePassword } from "../utils/validators";
 
 export default function Signin() {
   const navigate = useNavigate();
@@ -15,22 +16,7 @@ export default function Signin() {
 
   // check form input elements / validation
   //email & password
-  function ValidatePassword(pwd) {
-    // Minimum eight characters, at least one letter and one number:
-    if (/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(pwd)) {
-      return true;
-    }
-    return false;
-  }
-
-  function ValidateEmail(email) {
-    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-      return true;
-    }
-    return false;
-  }
-
-  const isInvalid = !ValidatePassword(password) || !ValidateEmail(emailAddress);
+  const isInvalid = !validatePassword(password) || !validateEmail(emailAddress);
 
   const handleSignIn = (event) => {
     event.preventDefault();
@@ -41,7 +27,7 @@ export default function Signin() {
       .signInWithEmailAndPassword(emailAddress, password)
       .then(() => {
         //push to the browse page
-        navigate.push(ROUTES.BROWSE);
+        navigate(ROUTES.BROWSE);
       })
       .catch((error) => {
         setEmailAddress("");
