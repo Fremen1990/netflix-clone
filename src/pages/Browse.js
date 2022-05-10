@@ -1,6 +1,7 @@
 import React from "react";
 import { useAuthListener, useContent } from "../hooks";
 import selectionFilter from "../utils/selection-filter";
+import { BrowseContainer } from "../containers/BrowseContainer";
 
 export default function Browse() {
   const { user } = useAuthListener();
@@ -16,12 +17,5 @@ export default function Browse() {
 
   // We need to pass it to the browse container
 
-  return (
-    <h1>
-      Hello from Browse! Hello my DEAR
-      {user.displayName}
-    </h1>
-  );
+  return <BrowseContainer slides={slides} />;
 }
-
-// TODO BROWSE CONTAINER 05:05
