@@ -66,3 +66,5 @@ export function BrowseContainer({ slides }) {
     <SelectProfileContainer user={user} setProfile={setProfile} />
   );
 }
+
+// TODO HEADER SEACH 6:15
