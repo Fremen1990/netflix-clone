@@ -1,26 +1,29 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { SelectProfileContainer } from "./Profiles";
+import { FirebaseContext } from "../context/firebase";
+import { Loading } from "../components";
 
 export function BrowseContainer({ slides }) {
-  console.log(slides);
+  const [profile, setProfile] = useState({});
+  const [loading, setLoading] = useState(true);
+  const { firebase } = useContext(FirebaseContext);
+  const user = firebase.auth().currentUser || {};
 
   const { films, series } = slides;
-  return (
-    <div>
-      <SelectProfileContainer />
-      <h2>Films categories:</h2>
-      <ul>
-        {films.map((film) => (
-          <li>{film.title}</li>
-        ))}
-      </ul>
 
-      <h2>Series categories:</h2>
-      <ul>
-        {series.map((serial) => (
-          <li>{serial.title}</li>
-        ))}
-      </ul>
-    </div>
+  useEffect(() => {
+    console.log("profile", profile);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, [profile.displayName]);
+
+  return profile.displayName ? (
+    loading ? (
+      // <Loading src={user.photoURL} />
+      <p>Loading...</p>
+    ) : null
+  ) : (
+    <SelectProfileContainer user={user} setProfile={setProfile} />
   );
 }
