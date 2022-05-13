@@ -80,13 +80,13 @@ Project Plan:
 - [x] 	Browse page (categories films & series) component
 - [x] 	Custom hook:browse page
 - [x] 	Utils directory and setup
-- [ ] 	Browse container
-- [ ] 	Profiles container
-- [ ] 	Profiles component
-- [ ] 	Loading profile component
-- [ ] 	Spinner review
-- [ ] 	Header profile
-- [ ] 	Header profile: dropdown, chevron
+- [X] 	Browse container
+- [X] 	Profiles container
+- [X] 	Profiles component
+- [X] 	Loading profile component
+- [X] 	Spinner review
+- [X] 	Header profile
+- [X] 	Header profile: dropdown, chevron
 - [ ] 	Header search styling
 - [ ] 	Header play button style
 - [ ] 	Card list (categories, slides) - films & series logic
