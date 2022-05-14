@@ -7,7 +7,7 @@ import { Form } from "../components";
 import * as ROUTES from "../constants/routes";
 import { validateEmail, validatePassword } from "../utils/validators";
 
-export default function Signup() {
+export default function SignUp() {
   const navigate = useNavigate();
   const { firebase } = useContext(FirebaseContext);
 
@@ -72,7 +72,11 @@ export default function Signup() {
               placeholder="Password"
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type="submit">
+            <Form.Submit
+              disabled={isInvalid}
+              type="submit"
+              data-testid="sign-up"
+            >
               Sign up
             </Form.Submit>
 
