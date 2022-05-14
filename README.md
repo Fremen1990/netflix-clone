@@ -2,8 +2,7 @@
 
 ### Live on: https://netflix-app-69791.web.app
 
-![App view](screenshot.png)
-
+<img src="https://github.com/Fremen1990/netflix-clone/blob/main/screenshot.PNG" />
 
 ## Technology:
 - ### JavaScript  <img src="https://www.lightgalleryjs.com/images/logos/javascript.svg" width="25" />
