@@ -10,8 +10,7 @@ Technology:
 - Firebase <img src="https://firebaseopensource.com/logo-small.png" width="25" />
 - Context API <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x9zIZpdy--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/lcpz9ff2p8uapk7dzma4.jpeg" width="25" />
 
-
-- Testing <img src="https://icons-for-free.com/download-icon-Test+React-1324888768681133477_256.ico" width="25" />
+- Jest Testing <img src="https://cdn.iconscout.com/icon/free/png-256/jest-3628860-3030000.png" width="25" />
 
 Architecture:
 
@@ -87,22 +86,22 @@ Project Plan:
 - [X] 	Spinner review
 - [X] 	Header profile
 - [X] 	Header profile: dropdown, chevron
-- [ ] 	Header search styling
-- [ ] 	Header play button style
-- [ ] 	Card list (categories, slides) - films & series logic
-- [ ] 	Entities logic start
-- [ ] 	Player component and Card component styling
-- [ ] 	Movie recommendations
-- [ ] 	Feature component (showing)
-- [ ] 	Passing props into our Feature (item obj)
-- [ ] 	More styling on the card style
-- [ ] 	Debugging the slides
-- [ ] 	Debugging play button and card
-- [ ] 	Player component
-- [ ] 	Review player video
-- [ ] 	Live search using Fuse.js
-- [ ] 	Review our project!
-- [ ] 	Testing setup
+- [x] 	Header search styling
+- [X] 	Header play button style
+- [X] 	Card list (categories, slides) - films & series logic
+- [X] 	Entities logic start
+- [X] 	Player component and Card component styling
+- [X] 	Movie recommendations
+- [X] 	Feature component (showing)
+- [X] 	Passing props into our Feature (item obj)
+- [X] 	More styling on the card style
+- [X] 	Debugging the slides
+- [X] 	Debugging play button and card
+- [X] 	Player component
+- [X] 	Review player video
+- [X] 	Live search using Fuse.js
+- [X] 	Review our project!
+- [X] 	Testing setup
 - [ ] 	Player test
 - [ ] 	Footer test
 - [ ] 	Accordion test
