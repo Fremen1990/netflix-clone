@@ -106,9 +106,9 @@
 - [X] 	Review player video
 - [X] 	Live search using Fuse.js
 - [X] 	Review our project!
-- [ ]   ### Testing:
+  ### Testing:
 - [X] 	Testing setup
-- [ ] 	Player test
+- [x] 	Player test
 - [ ] 	Footer test
 - [ ] 	Accordion test
 - [ ] 	Card test
