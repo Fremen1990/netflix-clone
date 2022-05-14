@@ -7,7 +7,7 @@ import { Form } from "../components";
 import * as ROUTES from "../constants/routes";
 import { validateEmail, validatePassword } from "../utils/validators";
 
-export default function Signin() {
+export default function SignIn() {
   const navigate = useNavigate();
   const { firebase } = useContext(FirebaseContext);
   const [emailAddress, setEmailAddress] = useState("");
@@ -21,13 +21,11 @@ export default function Signin() {
   const handleSignIn = (event) => {
     event.preventDefault();
 
-    //firebase works here
-    firebase
+    return firebase
       .auth()
       .signInWithEmailAndPassword(emailAddress, password)
       .then(() => {
-        //push to the browse page
-        navigate(ROUTES.BROWSE);
+        history.push(ROUTES.BROWSE);
       })
       .catch((error) => {
         setEmailAddress("");
@@ -42,7 +40,7 @@ export default function Signin() {
         <Form>
           <Form.Title>Sign In</Form.Title>
 
-          {error && <Form.Error>{error}</Form.Error>}
+          {error && <Form.Error data-testid="error">{error}</Form.Error>}
 
           <Form.Base onSubmit={handleSignIn} method="POST">
             <Form.Input
@@ -57,7 +55,11 @@ export default function Signin() {
               value={password}
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type="submit">
+            <Form.Submit
+              disabled={isInvalid}
+              type="submit"
+              data-testid="sign-in"
+            >
               Sign in
             </Form.Submit>
           </Form.Base>

@@ -1,19 +1,21 @@
 # Netflix React+Firebase App
 
-Technology:
-- JavaScript  <img src="https://www.lightgalleryjs.com/images/logos/javascript.svg" width="25" />
+## Technology:
+- ### JavaScript  <img src="https://www.lightgalleryjs.com/images/logos/javascript.svg" width="25" />
 
-- React JS <img src="https://icons-for-free.com/download-icon-design+development+facebook+framework+mobile+react+icon-1320165723839064798_256.png" width="25" />
-- Styled Components  <img src="https://www.iamrohit.tech/logo/styled.png" width="25" />
+- ### React JS <img src="https://icons-for-free.com/download-icon-design+development+facebook+framework+mobile+react+icon-1320165723839064798_256.png" width="45"/>
 
-
-- Firebase <img src="https://firebaseopensource.com/logo-small.png" width="25" />
-- Context API <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x9zIZpdy--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/lcpz9ff2p8uapk7dzma4.jpeg" width="25" />
+- ### Styled Components  <img src="https://www.iamrohit.tech/logo/styled.png" width="70" />
 
 
-- Testing <img src="https://icons-for-free.com/download-icon-Test+React-1324888768681133477_256.ico" width="25" />
+- ###  Firebase <img src="https://firebaseopensource.com/logo-small.png" width="35" />
+- ### Context API <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x9zIZpdy--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/lcpz9ff2p8uapk7dzma4.jpeg" width="100" />
 
-Architecture:
+- ###  Jest Testing <img src="https://cdn.iconscout.com/icon/free/png-256/jest-3628860-3030000.png" width="35" />
+
+---
+
+### Architecture:
 
 ![](architecture/aplication-architecture.png)
 ![](architecture/folder-structure.PNG)
@@ -24,7 +26,7 @@ Architecture:
 
 
 
-Additional packages:
+### Additional packages:
 - firebase - backend library
 - fuse.js - search library
 - normalize.css - to reset default css
@@ -32,15 +34,17 @@ Additional packages:
 - styled-components - to manage styled components
 - prettier - to format code during development
 
+---
+## ToDos
 
-Project Plan:
-- [x] Project configuration 
+### Project configuration 
   - [x] Architecture overview
   - [x] Installation Create React App
   - [x] CRA boilerplate cleanup
   - [x] Initialization GIT
   - [x] Adding GitHub remote repository
   - [x] Creating folders for architecture structure
+ ### Project work:
 - [x] Creating Jumbotron component
 - [x] Creating GlobalStyles styled component
 - [x] Implementing Normalize.css
@@ -87,22 +91,23 @@ Project Plan:
 - [X] 	Spinner review
 - [X] 	Header profile
 - [X] 	Header profile: dropdown, chevron
-- [ ] 	Header search styling
-- [ ] 	Header play button style
-- [ ] 	Card list (categories, slides) - films & series logic
-- [ ] 	Entities logic start
-- [ ] 	Player component and Card component styling
-- [ ] 	Movie recommendations
-- [ ] 	Feature component (showing)
-- [ ] 	Passing props into our Feature (item obj)
-- [ ] 	More styling on the card style
-- [ ] 	Debugging the slides
-- [ ] 	Debugging play button and card
-- [ ] 	Player component
-- [ ] 	Review player video
-- [ ] 	Live search using Fuse.js
-- [ ] 	Review our project!
-- [ ] 	Testing setup
+- [x] 	Header search styling
+- [X] 	Header play button style
+- [X] 	Card list (categories, slides) - films & series logic
+- [X] 	Entities logic start
+- [X] 	Player component and Card component styling
+- [X] 	Movie recommendations
+- [X] 	Feature component (showing)
+- [X] 	Passing props into our Feature (item obj)
+- [X] 	More styling on the card style
+- [X] 	Debugging the slides
+- [X] 	Debugging play button and card
+- [X] 	Player component
+- [X] 	Review player video
+- [X] 	Live search using Fuse.js
+- [X] 	Review our project!
+- [ ]   ### Testing:
+- [X] 	Testing setup
 - [ ] 	Player test
 - [ ] 	Footer test
 - [ ] 	Accordion test
