@@ -106,25 +106,24 @@
 - [X] 	Review player video
 - [X] 	Live search using Fuse.js
 - [X] 	Review our project!
-- [ ]   ### Testing:
+### Testing:
 - [X] 	Testing setup
-- [ ] 	Player test
-- [ ] 	Footer test
-- [ ] 	Accordion test
-- [ ] 	Card test
-- [ ] 	Feature test
-- [ ] 	Form test
-- [ ] 	Opt form test
-- [ ] 	Player test
-- [ ] 	Loading test
-- [ ] 	Profile test
-- [ ] 	Jumbotron test
-- [ ] 	Header test
-- [ ] 	Home page test
-- [ ] 	Profiles test
-- [ ] 	Adding test-ids to Profiles
-- [ ] 	Selection filter test
-- [ ] 	SignIn Test
-- [ ] 	SignUp Test
-- [ ] 	We are done! Review and sign off!
+- [x] 	Player test
+- [x] 	Footer test
+- [x] 	Accordion test
+- [x] 	Card test
+- [x] 	Feature test
+- [x] 	Form test
+- [x] 	Opt form test
+- [x] 	Player test
+- [x] 	Loading test
+- [x] 	Profile test
+- [x] 	Jumbotron test
+- [x] 	Header test
+- [x] 	Home page test
+- [x] 	Profiles test
+- [x] 	Adding test-ids to Profiles
+- [x] 	Selection filter test
+- [x] 	SignIn Test
+- [x] 	SignUp Test
 
