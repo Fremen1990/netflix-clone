@@ -2,6 +2,9 @@
 
 ### Live on: https://netflix-app-69791.web.app
 
+![App view](screenshot.png)
+
+
 ## Technology:
 - ### JavaScript  <img src="https://www.lightgalleryjs.com/images/logos/javascript.svg" width="25" />
 
