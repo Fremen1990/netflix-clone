@@ -1,18 +1,21 @@
 # Netflix React+Firebase App
 
-Technology:
-- JavaScript  <img src="https://www.lightgalleryjs.com/images/logos/javascript.svg" width="25" />
+## Technology:
+- ### JavaScript  <img src="https://www.lightgalleryjs.com/images/logos/javascript.svg" width="25" />
 
-- React JS <img src="https://icons-for-free.com/download-icon-design+development+facebook+framework+mobile+react+icon-1320165723839064798_256.png" width="25" />
-- Styled Components  <img src="https://www.iamrohit.tech/logo/styled.png" width="25" />
+- ### React JS <img src="https://icons-for-free.com/download-icon-design+development+facebook+framework+mobile+react+icon-1320165723839064798_256.png" width="45"/>
+
+- ### Styled Components  <img src="https://www.iamrohit.tech/logo/styled.png" width="70" />
 
 
-- Firebase <img src="https://firebaseopensource.com/logo-small.png" width="25" />
-- Context API <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x9zIZpdy--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/lcpz9ff2p8uapk7dzma4.jpeg" width="25" />
+- ###  Firebase <img src="https://firebaseopensource.com/logo-small.png" width="35" />
+- ### Context API <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--x9zIZpdy--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/lcpz9ff2p8uapk7dzma4.jpeg" width="100" />
 
-- Jest Testing <img src="https://cdn.iconscout.com/icon/free/png-256/jest-3628860-3030000.png" width="25" />
+- ###  Jest Testing <img src="https://cdn.iconscout.com/icon/free/png-256/jest-3628860-3030000.png" width="35" />
 
-Architecture:
+---
+
+### Architecture:
 
 ![](architecture/aplication-architecture.png)
 ![](architecture/folder-structure.PNG)
@@ -23,7 +26,7 @@ Architecture:
 
 
 
-Additional packages:
+### Additional packages:
 - firebase - backend library
 - fuse.js - search library
 - normalize.css - to reset default css
@@ -31,15 +34,17 @@ Additional packages:
 - styled-components - to manage styled components
 - prettier - to format code during development
 
+---
+## ToDos
 
-Project Plan:
-- [x] Project configuration 
+### Project configuration 
   - [x] Architecture overview
   - [x] Installation Create React App
   - [x] CRA boilerplate cleanup
   - [x] Initialization GIT
   - [x] Adding GitHub remote repository
   - [x] Creating folders for architecture structure
+ ### Project work:
 - [x] Creating Jumbotron component
 - [x] Creating GlobalStyles styled component
 - [x] Implementing Normalize.css
@@ -101,6 +106,7 @@ Project Plan:
 - [X] 	Review player video
 - [X] 	Live search using Fuse.js
 - [X] 	Review our project!
+- [ ]   ### Testing:
 - [X] 	Testing setup
 - [ ] 	Player test
 - [ ] 	Footer test
