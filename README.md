@@ -1,5 +1,7 @@
 # Netflix React+Firebase App
 
+### Live on: https://netflix-app-69791.web.app
+
 ## Technology:
 - ### JavaScript  <img src="https://www.lightgalleryjs.com/images/logos/javascript.svg" width="25" />
 
@@ -109,22 +111,21 @@
   ### Testing:
 - [X] 	Testing setup
 - [x] 	Player test
-- [ ] 	Footer test
-- [ ] 	Accordion test
-- [ ] 	Card test
-- [ ] 	Feature test
-- [ ] 	Form test
-- [ ] 	Opt form test
-- [ ] 	Player test
-- [ ] 	Loading test
-- [ ] 	Profile test
-- [ ] 	Jumbotron test
-- [ ] 	Header test
-- [ ] 	Home page test
-- [ ] 	Profiles test
-- [ ] 	Adding test-ids to Profiles
-- [ ] 	Selection filter test
-- [ ] 	SignIn Test
-- [ ] 	SignUp Test
-- [ ] 	We are done! Review and sign off!
+- [X] 	Footer test
+- [X] 	Accordion test
+- [X] 	Card test
+- [X] 	Feature test
+- [X] 	Form test
+- [X] 	Opt form test
+- [X] 	Player test
+- [X] 	Loading test
+- [X] 	Profile test
+- [X] 	Jumbotron test
+- [X] 	Header test
+- [X] 	Home page test
+- [X] 	Profiles test
+- [X] 	Adding test-ids to Profiles
+- [X] 	Selection filter test
+- [X] 	SignIn Test
+- [X] 	SignUp Test
 
